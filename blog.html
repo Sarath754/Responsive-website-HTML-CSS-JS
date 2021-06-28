@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs for 2021</h1>
+
+    </section>
+
+
+    <!-- blog page content -->
+
+    <section class="blog-content">
+
+        <class class="row">
+
+            <div class="blog-left">
+
+                <img src="Images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2021</h2>
+
+                <p>Dhoni also holds numerous captaincy records such as the most wins by an Indian captain in ODIs and
+                    T20Is, and most back-to-back wins by an Indian captain in ODIs. He took over the ODI captaincy from
+                    Rahul Dravid in 2007 and led the team to its first-ever bilateral ODI series wins in Sri Lanka and
+                    New Zealand. In June 2013, when India defeated England in the final of the Champions Trophy in
+                    England, Dhoni became the first captain to win all three ICC limited-overs trophies (World Cup,
+                    Champions Trophy and the World Twenty20). After taking up the Test captaincy in 2008, he led the
+                    team to series wins in New Zealand and the West Indies, and the Border-Gavaskar Trophy in 2008, 2010
+                    and 2013. In 2009, Dhoni also led the Indian team to number one position for the first time in the
+                    ICC Test rankings.</p><br>
+                <p>In 2013, under Dhoni's captaincy, India became the first team in more than 40 years to whitewash
+                    Australia in a Test series. In the Indian Premier League, he captained the Chennai Super Kings to
+                    victory at the 2010, 2011 and 2018 seasons, along with wins in the 2010 and 2014 editions of
+                    Champions League Twenty20. In 2011, Time magazine included Dhoni in its annual Time 100 list as one
+                    of the "Most Influential People in the World."[9] Dhoni holds the post of Vice-President of India
+                    Cements Ltd., after resigning from Air India. India Cements is the owner of the Indian Premier
+                    League team Chennai Super Kings, and Dhoni has been its captain since the first IPL season.[10][11]
+                    He announced his retirement from Tests on 30 December 2014.</p> <br>
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="sumbit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div> <span>Data Science</span>
+                    <span>27</span>
+                </div>
+
+                <div> <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+
+                <div><span>Computer Science</span>
+                    <span>26</span>
+                </div>
+
+                <div> <span>Electronics</span>
+                    <span>26</span>
+                </div>
+
+
+
+            </div>
+
+        </class>
+
+
+    </section>
+
+
+
+
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p>Google Fonts is a library of more than a thousand free and open source font families, an
+            interactive <br>
+            web directory for browsing the library, and APIs for using the fonts via CSS and Android.</p>
+
+        <div class="icons">
+            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-star"></i> by SarathRaj</p>
+    </section>
+
+
+    <!-- javascript -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+
+            navLinks.style.right = "0px";
+
+        }
+
+        function hideMenu() {
+
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+
+
+</body>
+
+</html>
